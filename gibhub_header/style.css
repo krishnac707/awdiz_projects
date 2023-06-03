@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#parent{
+    width: 100%;
+    border: 2px solid;
+    height: 60px;
+}
+
+#navbar{
+    background-color: #1b1e22;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+  }
+
+#navbar > div:nth-child(1){
+    width: 6%;
+    margin-left: 25px;
+}
+
+#navbar > div:nth-child(2){
+    margin: auto;
+    margin-left: 0px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#navbar > div:nth-child(2) > input {
+    border-radius: 5px;
+    padding: 13px;
+    height: 5px;
+    width: 30%;
+    border: 1px solid white;
+}
+
+#navbar > div:nth-child(2) > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.iconColor{
+    color: white;
+}
+
+.plusSize{
+    font-size: 20px;
+    color: white;
+}
+
+#navbar > div:nth-child(3){
+    margin: auto;
+    margin-right: 39px;
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    #navbar > div:nth-child(1){
+        margin: auto;
+        margin-right: 0px;
+    }
+    #navbar > div:nth-child(2){
+        display: none;
+    }
+
+    #navbar > div:nth-child(3) > div:nth-child(1){
+        margin-right: -51px;
+    }
+
+    #navbar > div:nth-child(3) > div:nth-child(2){
+        display: none;
+    }
+
+    #navbar > div:nth-child(3) > div:nth-child(3){
+        display: none;
+    }
+}
