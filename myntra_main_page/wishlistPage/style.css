@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    border-bottom: 1px solid rgb(212, 212, 212)
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.leftHeader {
+    width: 58%;
+    height: 100%;
+    display: flex;
+}
+
+.rightHeader {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoImage {
+    width: 18%;
+    height: 100%;
+}
+
+.menubar {
+    width: 62%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageSizeView {
+    padding-left: 18%;
+    padding-top: 6%;
+}
+
+.menubar>div {
+    height: 100%;
+    font-size: 12px;
+    color: #424656;
+    padding-top: 6%;
+}
+
+.searchbar {
+    width: 60%;
+    display: flex;
+    height: 50%;
+    margin-top: 3%;
+    border: 1px solid grey;
+
+}
+
+.inputSize {
+    width: 100%;
+    border: none;
+}
+
+.iconSearch {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.profile {
+    width: 10%;
+    height: 100%;
+    margin-top: 4%;
+
+}
+
+.iconMargin {
+    margin-left: 13%;
+}
+
+.wishlist {
+    width: 10%;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.cart {
+    width: 10%;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.fontSize {
+    font-size: 12px;
+}
+
+#wishlist {
+    width: 100%;
+}
+
+.wishlistHeading {
+    width: 90%;
+    font-size: 17px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    position: relative;
+    color: #282c3f;
+    left: 5%;
+}
+
+.wishlistCard {
+    width: 97%;
+    position: relative;
+    left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wishlistProduct {
+    width: 20%;
+    border: 1px solid #e9e9eb;
+    margin-bottom: 2%;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 350px;
+    background-image: url("https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.backgroundImage1{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/2499214/2018/5/23/3569f170-1967-46ab-9ae0-6442737f609d1527063527383-Roadster-Men-White-Printed-Round-Neck-T-shirt-4261527063525890-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.backgroundImage2{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.backgroundImage3{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/1996777/2022/11/22/336445a8-fa32-4396-914a-2629b49465d31669112704759RoadsterMenBlackCottonPureCottonT-shirt1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productName{
+    padding-top: 3%;
+}
+
+.productPrice{
+    margin-top: 5%;
+    margin-bottom: 11%;
+}
+
+.textColor{
+    color: #282c3f;
+}
+
+.cutPrice{
+    text-decoration: line-through;
+    font-size: 11px;
+}
+
+.offPrice{
+    color: #ff905a;
+    font-size: 11px;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+.moveBag{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ff3e6c;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.iconPosition{
+    
+    padding-top: 5%;
+    padding-left: 90%;
+}
+
+
+#footer {
+    color: #fafbfc;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #fafbfc;
+}
+
+#footer>div:nth-child(1) {
+    color: #fafbfc;
+    width: 80%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.onlineShopping {
+    width: 15%;
+    color: black;
+}
+
+.customerpolicy {
+    width: 15%;
+}
+
+.experianceMyntraMobile {
+    width: 35%;
+}
+
+.originalLogo {
+    width: 25%;
+}
+
+.footerHeading{
+    color: #282c3f;
+    margin-bottom: 7%;
+    font-size: 11px;
+}
+
+.footerHeadingTouch{
+    color: #282c3f;
+    margin-bottom: 7%;
+    font-size: 11px;
+    margin-top: 8%;
+}
+
+.footerText{
+    color: #696e79;
+    margin-bottom: 2%;
+    font-size: 13px;
+}
+
+.footerSubHeading{
+    color: #282c3f;
+    margin-bottom: 7%;
+    margin-top: 8%;
+    font-size: 11px;
+}
+
+.appDownloadImage{
+    width: 100%;
+    display: flex;
+}
+.appDownloadImage>div:nth-child(1){
+    width: 50%;
+}
+
+.appDownloadImage>div:nth-child(2){
+    width: 50%;
+}
+
+.androidLink{
+    width: 82%;
+}
+
+.iosLink{
+    width: 71%;
+}
+
+.socialMediaLogo{
+    width: 100%;
+    display: flex;
+}
+
+.socialMediaLogo>div{
+    width: 10%;
+}
+
+.socialMediaLogo>div>img{
+    width: 60%;
+}
+
+.originalLogo{
+    width: 25%;
+}
+
+.originalLogo>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.originalLogo>div>div:nth-child(1){
+    width: 15%;
+}
+
+.originalLogo>div>div:nth-child(2){
+    width: 75%;
+    margin-bottom: 10%;
+}
+
+.originalLogo>div>div:nth-child(2)>p{
+    color: black;
+    font-size: 14px;
+}
+
+.horizontalLine{
+    margin-top: 10%;
+    border: 1px solid gray;
+}

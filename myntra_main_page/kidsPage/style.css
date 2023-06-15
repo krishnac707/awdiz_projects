@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+}
+
+#body {
+    width: 100%;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e9e9ed;
+}
+
+#body>div:nth-child(1) {
+    width: 22%;
+}
+
+#logo {
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.leftHeader {
+    width: 58%;
+    height: 100%;
+    display: flex;
+}
+
+.rightHeader {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoImage {
+    width: 18%;
+    height: 100%;
+}
+
+.menubar {
+    width: 62%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageSizeView {
+    padding-left: 18%;
+    padding-top: 6%;
+}
+
+.menubar>div {
+    height: 100%;
+    font-size: 12px;
+    color: #424656;
+    padding-top: 6%;
+}
+
+.searchbar {
+    width: 60%;
+    display: flex;
+    height: 50%;
+    margin-top: 3%;
+    border: 1px solid grey;
+
+}
+
+.inputSize {
+    width: 100%;
+    border: none;
+}
+
+.iconSearch {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.profile {
+    width: 10%;
+    height: 100%;
+    margin-top: 4%;
+
+}
+
+.iconMargin {
+    margin-left: 13%;
+}
+
+.wishlist {
+    width: 10%;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.cart {
+    width: 10%;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.fontSize {
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.headingCategory {
+    display: flex;
+    /* justify-content: space-around; */
+    border-right: 1px solid #e9e9ed;
+    padding-left: 7%;
+    padding-top: 18px;
+    padding-bottom: 10px;
+
+}
+
+.filter_category {
+    border-right: 1px solid #e9e9ed;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.brandCss{
+    /* width: 96%; */
+    position: relative;
+    left: 7%;
+    
+    display: flex;
+}
+
+.brandCss>div:nth-child(1){
+    width: 82%;
+}
+
+
+.brandCss>div:nth-child(2){
+    width: 12%;
+}
+
+.checkbox_filter>label>span{
+    color: #878b94;
+}
+
+.checkbox_filter {
+    padding-left: 21px;
+    border-right: 1px solid #e9e9ed;
+    border-bottom: 1px solid #e9e9ed;
+    padding-bottom: 23px;
+}
+
+.checkbox_filter>p{
+    font-size: 14px;
+    color: red;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+
+.checkbox_filter>label{
+    color: #2c3043;
+    font-size: 12px;
+}
+
+.priceMargin{
+    margin-right: 9px;
+}
+
+.dot{
+    height: 14px;
+    width: 14px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.blueDot{
+    height: 14px;
+    width: 14px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.whiteDot{
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.navyBlue{
+    height: 14px;
+    width: 14px;
+    background-color: navy;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.green{
+    height: 14px;
+    width: 14px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.grey{
+    height: 14px;
+    width: 14px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.red{
+    height: 14px;
+    width: 14px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+#body>div>div:nth-child(2)>input {
+    margin-right: 9px;
+}
+
+#body>div>div:nth-child(4)>input {
+    margin-right: 9px;
+}
+
+/* #body>div:nth-child(2) {
+    
+}
+
+
+#body>div:nth-child(2)>div {
+    
+} */
+
+.rightDiv{
+    width: 77%;
+}
+
+.singleProductDiv{
+    /* width: 77%; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+    flex-wrap: wrap;
+}
+
+.singleProductCss{
+    width: 22%;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 29px;
+}
+
+.pagination{
+    margin-top: 5%;
+    padding-top: 3%;
+    border-top: 1px solid #e9e9ed;
+    display: flex;
+}
+
+.pageCss{
+    width: 30%;
+    color: #878b94;
+    font-size: 12px;
+    margin-top: 1%;
+}
+
+.numberCss{
+    width: 40%;
+    display: flex;
+}
+
+.numberCss>div{
+    width: 8%;
+}
+
+
+.numberAlign{
+    text-align: center;
+    padding: 2% 0% 0% 0%;
+}
+
+.paginationParagraph{
+    text-align: center;
+    color: white;
+    background-color: #2c3043;
+    padding: 2% 0% 0% 0%;
+}
+
+.nextCss{
+    width: 8%;
+    border: 1px solid #e9e9ed;
+}
+
+.nextCss>p{
+    padding: 10%;
+}
+
+.text_css {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #878b94;
+    font-size: 14px;
+}
+
+.text_css_Heading{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: black;
+
+}
+
+.mrpSpace {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    padding-top: 8px;
+    padding-left: 5px;
+    color: #878b94;
+    font-size: 12px;
+}
+
+.offerCss{
+    padding-top: 8px;
+    color: #ffb6e7;
+    font-size: 12px;
+}
+
+.breadCrumbs {
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.breadCrumbs>div:nth-child(1) {
+    width: 98%;
+    position: relative;
+    left: 2%;
+    margin:1% 0% 1% 0%;
+}
+
+.breadCrumbs>div:nth-child(2) {
+    width: 98%;
+    position: relative;
+    left: 2%;
+    margin-bottom: 2%;
+}
+
+.filterSection{
+    width: 96%;
+    position: relative;
+    left: 2%;
+    right: 2%;
+    display: flex;
+}
+
+.filterSection>div:nth-child(1){
+    width: 22%;
+}
+
+.filterSection>div:nth-child(2){
+    width: 58%;
+}
+
+.filterSection>div:nth-child(2)>select{
+    border:none;
+    margin-right: 2%;
+    color: #2c3043;
+}
+
+.filterSection>div:nth-child(3){
+    width: 18%;
+    border: 1px solid #e9e9ed;
+    padding: 8px;
+}
+
+.filterSection>div:nth-child(3)>select{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.homeColor{
+    color: #282c3f;
+    font-size: 13px;
+}
+
+.itemColor{
+    color: #878b94;
+}
+
+.itemHeadingColor{
+    color: #282c3f;
+    font-size: 15px;
+}
